@@ -5,12 +5,12 @@
 */
 body {
     font-family: roboto;
-    width: 1300px;
+    width: 1250px;
   	height: 3200px;
 }
 
 header {
-	width: 1300px;
+	width: 1250px;
 	height: 80px;
 	background: #172035;
 }
@@ -70,7 +70,7 @@ p {
 }
 
 footer {
-    width: 1300px;
+    width: 1250px;
     height: 80px;
     background: #172035;
     position: absolute;
