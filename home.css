@@ -80,7 +80,7 @@ h6 {
 
 section#about {
 
-    background: #252525;
+    background: #708090;
     position: absolute;
     top: 1700px;
     left: 0;
@@ -94,7 +94,7 @@ div.about {
 div.students {
     width: 250px;
     height: 200px;
-    background: black;
+    background: #36454F;
     text-align: center;
     color: white;
     position: absolute;
@@ -105,7 +105,7 @@ div.students {
 div.reviews {
     width: 250px;
     height: 200px;
-    background: black;
+    background: #36454F;
     text-align: center;
     color: white;
     position: absolute;
@@ -116,7 +116,7 @@ div.reviews {
 div.courses {
     width: 250px;
     height: 200px;
-    background: black;
+    background: #36454F;
     text-align: center;
     color: white;
     position: absolute;
@@ -127,7 +127,7 @@ div.courses {
 div.content {
     width: 250px;
     height: 200px;
-    background: black;
+    background: #36454F;
     text-align: center;
     color: white;
     position: absolute;

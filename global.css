@@ -47,7 +47,8 @@ a:hover {
 button {
     width: 50%;
     height: 50px;
-    background: #172035;
+    border-radius: 8px;
+    background: #008CBA;
     color: white;
     font-size: 2em;
     border:none;
@@ -70,7 +71,7 @@ p {
 }
 
 footer {
-    width: 1250px;
+    width: 1300px;
     height: 80px;
     background: #172035;
     position: absolute;

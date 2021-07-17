@@ -15,6 +15,22 @@
 
 </head>
 <body>
+	<script src="sweetalert.min.js"></script>
+	<script type="text/javascript">
+	function validate()
+	{
+		swal("You can access only after subscription");
+	}
+	function validate1()
+	{
+		swal("please login to listen now");
+	}
+	function validate2()
+	{
+		swal("You can access only after login to your account");
+	}
+
+	</script>
 
 	<header>
 
@@ -31,12 +47,7 @@
 	</header>
 
 
-
-
-
-
-
-	<section id="learntech">
+<section id="learntech">
 
 		<center><h1 class="h1lt">Learn Tech</h1></center>
 
@@ -48,7 +59,7 @@
 
 			<center><h6>Daily Video Series Covering Tech Topics</h6></center>
 
-			<center><button>Watch Now</button></center>
+			<center><button onclick= "validate();">Watch Now</button></center>
 
 		</div>
 
@@ -60,7 +71,7 @@
 
 			<center><h6>Daily Podcast Series Covering Tech Topics.</h6></center>
 
-			<center><button>Listen Now</button></center>
+			<center><button onclick= "validate1();">Listen Now</button></center>
 
 		</div>
 
@@ -72,7 +83,7 @@
 
 			<center><h6>Daily Blog Covering Tech Topics.</h6></center>
 
-			<center><button>Read Now</button></center>
+			<center><button onclick= "validate2();">Read Now</button></center>
 
 		</div>
 
